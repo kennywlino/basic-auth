@@ -14,7 +14,7 @@ module.exports = async (req, res, next) => {
     const user = await UsersModel.findOne({ where: { username }});
     const valid = await bcrypt.compare(password, user.password);
     if (valid) {
-      res.status(200).json(user);
+      req.user = user;
       next();
     } else {
       next('Invalid user');
