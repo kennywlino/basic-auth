@@ -1,6 +1,6 @@
 'use strict';
 
-const { sequelizeDB } = require('./src/models');
+const { sequelizeDB } = require('./src/auth/models');
 const { start } = require('./src/server');
 
 sequelizeDB.sync()
@@ -8,4 +8,4 @@ sequelizeDB.sync()
     console.log('Sucessful connection');
     start();
   })
-  .catch(e => console.error(e))
+  .catch(e => console.error(e));
