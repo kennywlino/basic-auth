@@ -10,8 +10,8 @@ This application serves as an example for how to add authentication to an Expres
 
 ### Links and Resources
 
-- [ci/cd](https://github.com/kennywlino/api-server/actions/)
-- [back-end server (production)](https://api-server-ar7n.onrender.com/)
+- [ci/cd](https://github.com/kennywlino/basic-auth/actions)
+- [back-end server (production)](https://basic-auth-hnix.onrender.com)
 - [Main PR from dev](https://github.com/kennywlino/basic-auth/pull/1)
 
 ### Setup
