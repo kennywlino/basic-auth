@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
 });
 
 router.post('/signin', basicAuth, async (req, res) => {
-  console.log('logged in');
+  res.status(200).json(req.user);
 });
 
 router.post('/signup', async (req, res) => {
