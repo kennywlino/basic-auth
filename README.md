@@ -32,8 +32,8 @@ i.e.
 #### Features / Routes
 
 - GET : `/` - default route to hit for proof of life
-- POST: `/signin` - route for plant data
-- POST: `/signup` - route for animal data
+- POST: `/signin` - route to signin with given user and password
+- POST: `/signup` - route to signup with given user and password
 
 #### Tests
 
