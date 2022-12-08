@@ -1,4 +1,6 @@
 'use strict';
+
+require('dotenv').config();
 const express = require('express');
 const PORT = process.env.PORT || 3002;
 const router = require('./auth/router');
